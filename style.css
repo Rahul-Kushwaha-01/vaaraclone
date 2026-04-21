@@ -1,0 +1,528 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+}
+#navbar{
+    width:100%;
+    height:30px;
+    background-color: rgb(55, 52, 52);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#navbar h4{
+    color: white;
+    text-transform: uppercase;
+    font-weight: 100;
+}
+#main{
+    height: 100%;
+    width: 100%;
+    background-image: url(https://vaara.com/cdn/shop/files/Shot_05_157_v6_RGB.jpg?v=1719574743&width=960);
+    background-position: center;
+    background-size: cover;
+}
+#nav2{
+    width: 100%;
+    height: 70px;
+    background-color: transparent;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+}
+#list1{
+    display: flex;
+    gap: 20px;
+    font-size: 15px;
+    text-transform: uppercase;
+    color: rgb(255, 253, 253);
+}
+#list2{
+    display: flex;
+    gap: 20px;
+    color:white;
+}
+#nav2 h1{
+    color: white;
+    font-weight: 700;
+    letter-spacing: 10px;
+    font-size: 30px;
+}
+#nav2:hover {
+    background-color: white;
+}
+#nav2:hover h1{
+    color: #000;
+}
+
+#nav2:hover h6{
+    color: #000;
+}
+#nav2:hover p{
+    color: #000;
+}
+.list3{
+    padding-top: 20%;
+    padding-left: 10%;
+    h4{
+        color: rgb(60,60,62);
+    }
+    
+}
+.list3 h2{
+    font-size: 20px;
+    color: rgb(60,60,62);
+}
+.list3 h3 {
+    font-weight: 300;
+    color: rgb(60,60,62);
+}
+#imagebox{
+    height: 60%;
+    width: 100%;
+    background-color:transparent;
+    display: flex;
+    gap: 2px;
+}
+.box1{
+    height:100%;
+    width: 25%;
+    background-image: url(https://vaara.com/cdn/shop/files/VSWW018ORA_0871_2050.jpg?v=1708530501&width=400);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+.box2{
+    height:100%;
+    width: 25%;
+    background-image: url(https://vaara.com/cdn/shop/files/5VDRS048_0295_2050.jpg?v=1711464294&width=400);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+.box3{
+    height:100%;
+    width: 25%;
+    background-image: url(https://vaara.com/cdn/shop/files/55VSWW020BLA_5351_2050.jpg?v=1712841545&width=768);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+.box4{
+    height:100%;
+    width: 25%;
+    background-image: url(https://vaara.com/cdn/shop/files/VACC065BEI_3257_2050.jpg?v=1711492889&width=348);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+.inner1{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    display: none;
+    object-fit: cover;
+    overflow: hidden;
+}
+.box1:hover .inner1{
+    display: block;
+    
+}
+.boxnav{
+    height: 10%;
+    width: 100%;
+    background-color:transparent;
+    position: absolute;
+    top: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.boxnav h3{
+    color:rgb(49, 49, 46);
+    padding: 5px;
+}
+.header1{
+    height: 10%;
+    width: 100%;
+    background-color:transparent;
+    position: absolute;
+    bottom: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+.header1 h3{
+    color: rgb(88, 88, 83);
+    padding-left: 5px;
+}
+.header1 p{
+    color: rgb(66, 66, 61);
+}
+.header1 i{
+    font-size: larger;
+    padding-right: 5px;
+}
+.inner2 {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    display: none;
+    overflow: hidden;
+
+}
+.box2:hover .inner2{
+    display: block;
+}
+.boxnav2{
+    width: 100%;
+    height: 10%;
+    background-color: transparent;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: absolute;
+    top: 0;
+}
+.boxnav2 h2{
+    color: rgb(66, 66, 63);
+    padding: 5px;
+
+}
+.header2{
+    height: 10%;
+    width: 100%;
+    background-color:transparent;
+    position:absolute;
+    bottom: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.header2 h2{
+    color: rgb(60, 60, 62);
+    padding-left: 5px;
+}
+.header2 p{
+    color: rgb(60,60,62);
+    padding-right: 5px;
+}
+.inner3{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    display: none;
+    overflow: hidden;
+}
+.box3:hover .inner3{
+    display: block;
+}
+.boxnav3{
+    height: 10%;
+    width: 100%;
+    background-color: transparent;
+    position: absolute;
+    top: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.header3{
+    width: 100%;
+    height: 10%;
+    background-color:transparent;
+    position: absolute;
+    bottom: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.boxnav3 h2{
+    color: rgb(60,60,62);
+    padding: 5px;
+
+}
+.header3 h2{
+    column-count: rgb(60,60,62);
+    padding-left: 5px;
+}
+.header3 p{
+    color: rgb(60,60,62);
+    padding-right: 5px;
+}
+.inner4{
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    display: none;
+    overflow: hidden;
+}
+.box4:hover .inner4{
+    display: block;
+}
+.boxnav4{
+    width: 100%;
+    height: 10%;
+    background-color:transparent;
+    position: absolute;
+    top: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.header4{
+    height: 10%;
+    width: 100%;
+    background-color: transparent;
+    position: absolute;
+    bottom: 0;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+}
+.boxnav4 h2{
+    color: rgb(60,60,62);
+    padding: 5px;
+}
+.header4 p{
+    color: rgb(60,60,62);
+    padding:5px;
+}
+.imagebox2{
+    width: 100%;
+    height: 60%;
+    display: flex;
+    align-items: center;
+    gap: 1px;
+}
+.box5{
+    width: 25%;
+    height: 100%;
+    background-color: aqua;
+    position: relative;
+}
+.box6{
+    width: 25%;
+    height: 100%;
+    background-color: aqua;
+    position: relative;
+}
+.box7{
+    width: 25%;
+    height: 100%;
+    background-color: aqua;
+    position: relative;
+}
+.box8{
+    width: 25%;
+    height: 100%;
+    background-color: aqua;
+    position: relative;
+}
+.box5 img{
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+}
+.box6 img{
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+}
+.box7 img{
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+.box8 img{
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+}
+.inner5{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: none;
+}
+.box5:hover .inner5{
+    display: block;
+}
+.boxnav5{
+    height: 10%;
+    width: 100%;
+    background-color:transparent;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: absolute;
+    top: 0;
+    
+}
+.boxnav5 h2{
+    color: rgb(60,60,62);
+    padding: 5px;
+    text-transform: uppercase;
+}
+.header5{
+    height: 10%;
+    width: 100%;
+    background-color: transparent;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: absolute;
+    bottom: 0;
+}
+.header5 h2{
+    color: rgb(60,60,62);
+    padding-left: 5px;
+    text-transform: uppercase;
+}
+.header5 p{
+    color: rgb(60,60,62);
+    padding-right: 5px;
+}
+.inner6{
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    display: none;
+}
+.box6:hover .inner6{
+    display: block;
+}
+.boxnav6{
+    height: 10%;
+    width: 100%;
+    background-color: transparent;
+    position: absolute;
+    top: 0;
+    display: flex;
+    align-items:center;
+    justify-content: space-between;
+}
+.boxnav6 h2{
+    color: rgb(60,60,62);
+    text-transform: uppercase;
+    padding: 5px;
+}
+.header6{
+    height: 10%;
+    width: 100%;
+    background-color: transparent;
+    position: absolute;
+    bottom: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.header6 h2{
+    color: rgb(60, 60, 62);
+    text-transform: uppercase;
+    padding-left:5px  ;
+}
+.header6 p{
+    color: rgb(60,60,62);
+    padding-right: 5px; 
+}
+.inner7{
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    display: none;
+}
+.box7:hover .inner7{
+    display: block;
+}
+.boxnav7{
+    height: 10%;
+    width: 100%;
+    background-color: transparent;
+    position: absolute;
+    top: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.boxnav7 h2{
+    color: rgb(60,60,62);
+    text-transform: uppercase;
+    padding: 5px;
+}
+.header7{
+    height: 10%;
+    width: 100%;
+    background-color: transparent;
+    position: absolute;
+    bottom: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.header7 h2{
+    color: rgb(60,60,62);
+    text-transform: uppercase;
+    padding-left: 5px;
+}
+.header7 p{
+    color: rgb(60,60,62);
+    text-transform: uppercase;
+    padding-right:5px ;
+}
+.inner8{
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    display: none;
+}
+.box8:hover .inner8{
+    display: block;
+}
+.boxnav8{
+    height: 10%;
+    width: 100%;
+    background-color: transparent;
+    position: absolute;
+    top: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.boxnav8 h2{
+    color: rgb(60,60,62);
+    text-transform: uppercase;
+    padding: 5px;
+}
+.header8{
+    height: 10%;
+    width: 100%;
+    background-color: transparent;
+    position: absolute;
+    bottom: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.header8 h2{
+    color: rgb(60,60,62);
+    text-transform: uppercase;
+    padding-left: 5px;
+}
+.header8 p{
+    color: rgb(60,60,62);
+    padding-right: 5px;
+}
